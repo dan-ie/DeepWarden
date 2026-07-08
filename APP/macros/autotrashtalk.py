@@ -18,7 +18,7 @@ class TrashTalkListener:
                 time.sleep(0.05)
                 keyboard.press_and_release('/')
                 time.sleep(0.05)
-                keyboard.write(chosenMessage)
+                keyboard.write(chosenMessage, delay=0.02)
                 time.sleep(0.05)
                 keyboard.press_and_release('enter')  
         # Register the key press handler
