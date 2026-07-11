@@ -90,8 +90,8 @@ class autoCharismaListener:
                             # Perform the typing
                             print('TYPING THE LINE')
                             pyautogui.write(
-                                current_value[len(current_key):], interval=0.02
-                            )  # Type quickly
+                                current_value[len(current_key):], interval=0.005
+                            ) 
                             time.sleep(0.1)
                             keyboard.press_and_release("enter")  # Press Enter
                             time.sleep(0.25)

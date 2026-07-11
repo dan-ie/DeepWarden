@@ -38,7 +38,7 @@ class AutoBankListener:
                     time.sleep(0.01)
                     win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP if is_mouse_swapped() else win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)
 
-                    keyboard.write(itemname, delay=0.02)
+                    keyboard.write(itemname, delay=0.005)
                     time.sleep(0.01)
                     pydirectinput.moveTo(itemcoordinates_x, itemcoordinates_y)
                     pydirectinput.move(None, 5)

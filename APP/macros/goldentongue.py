@@ -13,7 +13,7 @@ class GoldenTongueListener:
                 time.sleep(0.05)
                 keyboard.press_and_release('/')
                 time.sleep(0.05)
-                keyboard.write(content, delay=0.02)
+                keyboard.write(content, delay=0.005)
                 time.sleep(0.05)
                 keyboard.press_and_release('enter')  
                 if autosprint:

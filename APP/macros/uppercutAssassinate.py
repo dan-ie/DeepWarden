@@ -25,7 +25,7 @@ class uppercutAssassinateListener:
             time.sleep(0.5)
             keyboard.press_and_release('/')
             time.sleep(0.05)
-            keyboard.write('mb all', delay=0.02)
+            keyboard.write('mb all', delay=0.005)
             time.sleep(0.05)
             keyboard.press_and_release('enter')
             time.sleep(0.15)
