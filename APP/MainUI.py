@@ -532,102 +532,72 @@ class Ui_MainWindow(object):
         self.scrollArea_5.setWidgetResizable(True)
         self.scrollAreaWidgetContents_6 = QWidget()
         self.scrollAreaWidgetContents_6.setObjectName(u"scrollAreaWidgetContents_6")
-        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 657, 1348))
+        self.scrollAreaWidgetContents_6.setGeometry(QRect(0, 0, 657, 1384))
         self.gridLayout_21 = QGridLayout(self.scrollAreaWidgetContents_6)
         self.gridLayout_21.setObjectName(u"gridLayout_21")
-        self.label_117 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_117.setObjectName(u"label_117")
+        self.AutoDropNotesBarEndCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesBarEndCoordsButton.setObjectName(u"AutoDropNotesBarEndCoordsButton")
 
-        self.gridLayout_21.addWidget(self.label_117, 14, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.AutoDropNotesBarEndCoordsButton, 30, 0, 1, 2)
 
-        self.label_27 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_27.setObjectName(u"label_27")
-        self.label_27.setFont(font)
-        self.label_27.setStyleSheet(u"color:grey;")
+        self.AutoSellBarEndCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.AutoSellBarEndCoordsButton.setObjectName(u"AutoSellBarEndCoordsButton")
 
-        self.gridLayout_21.addWidget(self.label_27, 3, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.AutoSellBarEndCoordsButton, 40, 0, 1, 2)
 
-        self.label_28 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_28.setObjectName(u"label_28")
-        self.label_28.setFont(font)
-        self.label_28.setStyleSheet(u"color:grey;")
+        self.label_25 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_25.setObjectName(u"label_25")
 
-        self.gridLayout_21.addWidget(self.label_28, 6, 0, 1, 2)
-
-        self.AutoDropNotesBarStartCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesBarStartCoordsButton.setObjectName(u"AutoDropNotesBarStartCoordsButton")
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesBarStartCoordsButton, 27, 0, 1, 2)
-
-        self.label_120 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_120.setObjectName(u"label_120")
-
-        self.gridLayout_21.addWidget(self.label_120, 28, 0, 1, 1)
-
-        self.AutoSellLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.AutoSellLabel.setObjectName(u"AutoSellLabel")
-
-        self.gridLayout_21.addWidget(self.AutoSellLabel, 32, 0, 1, 1)
-
-        self.label_124 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_124.setObjectName(u"label_124")
-
-        self.gridLayout_21.addWidget(self.label_124, 38, 0, 1, 1)
-
-        self.AutoBuySubmitCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoBuySubmitCoords.setObjectName(u"AutoBuySubmitCoords")
-        self.AutoBuySubmitCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoBuySubmitCoords.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoBuySubmitCoords, 18, 1, 1, 1)
-
-        self.AutoDropNotesHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesHotkey.setObjectName(u"AutoDropNotesHotkey")
-        self.AutoDropNotesHotkey.setMaximumSize(QSize(16777215, 30))
-        self.AutoDropNotesHotkey.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesHotkey, 22, 1, 1, 1)
-
-        self.AutoSellBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoSellBarEndCoords.setObjectName(u"AutoSellBarEndCoords")
-        self.AutoSellBarEndCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoSellBarEndCoords.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoSellBarEndCoords, 38, 1, 1, 1)
-
-        self.label_114 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_114.setObjectName(u"label_114")
-
-        self.gridLayout_21.addWidget(self.label_114, 23, 0, 1, 1)
-
-        self.label_127 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_127.setObjectName(u"label_127")
-        self.label_127.setStyleSheet(u"color:grey;")
-        self.label_127.setWordWrap(True)
-
-        self.gridLayout_21.addWidget(self.label_127, 33, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.label_25, 4, 0, 1, 1)
 
         self.label_119 = QLabel(self.scrollAreaWidgetContents_6)
         self.label_119.setObjectName(u"label_119")
         self.label_119.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_21.addWidget(self.label_119, 12, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.label_119, 13, 0, 1, 2)
 
-        self.AutoSellRepetitions = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoSellRepetitions.setObjectName(u"AutoSellRepetitions")
-        self.AutoSellRepetitions.setMaximumSize(QSize(16777215, 30))
-        self.AutoSellRepetitions.setMaximumBlockCount(1)
+        self.label_121 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_121.setObjectName(u"label_121")
+        self.label_121.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_21.addWidget(self.AutoSellRepetitions, 35, 1, 1, 1)
+        self.gridLayout_21.addWidget(self.label_121, 22, 0, 1, 2)
 
-        self.WillpowerTrainingHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.WillpowerTrainingHotkey.setObjectName(u"WillpowerTrainingHotkey")
-        self.WillpowerTrainingHotkey.setMinimumSize(QSize(0, 30))
-        self.WillpowerTrainingHotkey.setMaximumSize(QSize(16777215, 30))
-        self.WillpowerTrainingHotkey.setStyleSheet(u"")
-        self.WillpowerTrainingHotkey.setMaximumBlockCount(1)
+        self.AutoDropNotesSubmitCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesSubmitCoords.setObjectName(u"AutoDropNotesSubmitCoords")
+        self.AutoDropNotesSubmitCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesSubmitCoords.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.WillpowerTrainingHotkey, 10, 1, 1, 1)
+        self.gridLayout_21.addWidget(self.AutoDropNotesSubmitCoords, 31, 1, 1, 1)
+
+        self.AutoBuyBarEndCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.AutoBuyBarEndCoordsButton.setObjectName(u"AutoBuyBarEndCoordsButton")
+
+        self.gridLayout_21.addWidget(self.AutoBuyBarEndCoordsButton, 18, 0, 1, 2)
+
+        self.AutoSellBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoSellBarStartCoords.setObjectName(u"AutoSellBarStartCoords")
+        self.AutoSellBarStartCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellBarStartCoords.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.AutoSellBarStartCoords, 37, 1, 1, 1)
+
+        self.autoDropNotesNoteCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.autoDropNotesNoteCoords.setObjectName(u"autoDropNotesNoteCoords")
+        self.autoDropNotesNoteCoords.setMinimumSize(QSize(0, 30))
+        self.autoDropNotesNoteCoords.setMaximumSize(QSize(16777215, 30))
+        self.autoDropNotesNoteCoords.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.autoDropNotesNoteCoords, 25, 1, 1, 1)
+
+        self.label_122 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_122.setObjectName(u"label_122")
+
+        self.gridLayout_21.addWidget(self.label_122, 27, 0, 1, 1)
+
+        self.AutoBuySubmitCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.AutoBuySubmitCoordsButton.setObjectName(u"AutoBuySubmitCoordsButton")
+
+        self.gridLayout_21.addWidget(self.AutoBuySubmitCoordsButton, 20, 0, 1, 2)
 
         self.AnkleWeightsTrainingHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AnkleWeightsTrainingHotkey.setObjectName(u"AnkleWeightsTrainingHotkey")
@@ -638,112 +608,63 @@ class Ui_MainWindow(object):
 
         self.gridLayout_21.addWidget(self.AnkleWeightsTrainingHotkey, 4, 1, 1, 1)
 
-        self.AutoDropNotesLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesLabel.setObjectName(u"AutoDropNotesLabel")
+        self.AutoDropNotesHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesHotkey.setObjectName(u"AutoDropNotesHotkey")
+        self.AutoDropNotesHotkey.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesHotkey.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.AutoDropNotesLabel, 20, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.AutoDropNotesHotkey, 23, 1, 1, 1)
 
         self.label_30 = QLabel(self.scrollAreaWidgetContents_6)
         self.label_30.setObjectName(u"label_30")
 
-        self.gridLayout_21.addWidget(self.label_30, 10, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_30, 11, 0, 1, 1)
 
-        self.label_126 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_126.setObjectName(u"label_126")
+        self.label_139 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_139.setObjectName(u"label_139")
 
-        self.gridLayout_21.addWidget(self.label_126, 36, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_139, 19, 0, 1, 1)
 
-        self.label_25 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_25.setObjectName(u"label_25")
+        self.WillpowerTrainingLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.WillpowerTrainingLabel.setObjectName(u"WillpowerTrainingLabel")
 
-        self.gridLayout_21.addWidget(self.label_25, 4, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.WillpowerTrainingLabel, 9, 0, 1, 1)
+
+        self.label_130 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_130.setObjectName(u"label_130")
+
+        self.gridLayout_21.addWidget(self.label_130, 31, 0, 1, 1)
+
+        self.AutoBuySubmitCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoBuySubmitCoords.setObjectName(u"AutoBuySubmitCoords")
+        self.AutoBuySubmitCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuySubmitCoords.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.AutoBuySubmitCoords, 19, 1, 1, 1)
 
         self.AutoSellHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.AutoSellHotkey.setObjectName(u"AutoSellHotkey")
         self.AutoSellHotkey.setMaximumSize(QSize(16777215, 30))
         self.AutoSellHotkey.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.AutoSellHotkey, 34, 1, 1, 1)
+        self.gridLayout_21.addWidget(self.AutoSellHotkey, 35, 1, 1, 1)
 
-        self.AutoBuyBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoBuyBarStartCoords.setObjectName(u"AutoBuyBarStartCoords")
-        self.AutoBuyBarStartCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoBuyBarStartCoords.setMaximumBlockCount(1)
+        self.autoDropNotesNoteCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.autoDropNotesNoteCoordsButton.setObjectName(u"autoDropNotesNoteCoordsButton")
 
-        self.gridLayout_21.addWidget(self.AutoBuyBarStartCoords, 14, 1, 1, 1)
+        self.gridLayout_21.addWidget(self.autoDropNotesNoteCoordsButton, 26, 0, 1, 2)
 
-        self.AnkleWeightsLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.AnkleWeightsLabel.setObjectName(u"AnkleWeightsLabel")
+        self.label_28 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_28.setObjectName(u"label_28")
+        self.label_28.setFont(font)
+        self.label_28.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_21.addWidget(self.AnkleWeightsLabel, 2, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_28, 6, 0, 1, 2)
 
-        self.AutoSellBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoSellBarStartCoords.setObjectName(u"AutoSellBarStartCoords")
-        self.AutoSellBarStartCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoSellBarStartCoords.setMaximumBlockCount(1)
+        self.label_117 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_117.setObjectName(u"label_117")
 
-        self.gridLayout_21.addWidget(self.AutoSellBarStartCoords, 36, 1, 1, 1)
-
-        self.AutoBuyBarEndCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.AutoBuyBarEndCoordsButton.setObjectName(u"AutoBuyBarEndCoordsButton")
-
-        self.gridLayout_21.addWidget(self.AutoBuyBarEndCoordsButton, 17, 0, 1, 2)
-
-        self.label_139 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_139.setObjectName(u"label_139")
-
-        self.gridLayout_21.addWidget(self.label_139, 18, 0, 1, 1)
-
-        self.AutoSellBarEndCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.AutoSellBarEndCoordsButton.setObjectName(u"AutoSellBarEndCoordsButton")
-
-        self.gridLayout_21.addWidget(self.AutoSellBarEndCoordsButton, 39, 0, 1, 2)
-
-        self.AutoBuyBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoBuyBarEndCoords.setObjectName(u"AutoBuyBarEndCoords")
-        self.AutoBuyBarEndCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoBuyBarEndCoords.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoBuyBarEndCoords, 16, 1, 1, 1)
-
-        self.AutoDropNotesSubmitCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesSubmitCoords.setObjectName(u"AutoDropNotesSubmitCoords")
-        self.AutoDropNotesSubmitCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoDropNotesSubmitCoords.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesSubmitCoords, 30, 1, 1, 1)
-
-        self.CharismaAutofillLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.CharismaAutofillLabel.setObjectName(u"CharismaAutofillLabel")
-
-        self.gridLayout_21.addWidget(self.CharismaAutofillLabel, 0, 0, 1, 1)
-
-        self.label_130 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_130.setObjectName(u"label_130")
-
-        self.gridLayout_21.addWidget(self.label_130, 30, 0, 1, 1)
-
-        self.label_26 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_26.setObjectName(u"label_26")
-
-        self.gridLayout_21.addWidget(self.label_26, 7, 0, 1, 1)
-
-        self.AutoDropNotesRepetitions = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesRepetitions.setObjectName(u"AutoDropNotesRepetitions")
-        self.AutoDropNotesRepetitions.setMaximumSize(QSize(16777215, 30))
-        self.AutoDropNotesRepetitions.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesRepetitions, 23, 1, 1, 1)
-
-        self.label_123 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_123.setObjectName(u"label_123")
-
-        self.gridLayout_21.addWidget(self.label_123, 22, 0, 1, 1)
-
-        self.autoSellBarStartCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.autoSellBarStartCoordsButton.setObjectName(u"autoSellBarStartCoordsButton")
-
-        self.gridLayout_21.addWidget(self.autoSellBarStartCoordsButton, 37, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.label_117, 15, 0, 1, 1)
 
         self.label_13 = QLabel(self.scrollAreaWidgetContents_6)
         self.label_13.setObjectName(u"label_13")
@@ -752,69 +673,34 @@ class Ui_MainWindow(object):
 
         self.gridLayout_21.addWidget(self.label_13, 1, 0, 1, 2)
 
-        self.autoDropNotesNoteCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.autoDropNotesNoteCoords.setObjectName(u"autoDropNotesNoteCoords")
-        self.autoDropNotesNoteCoords.setMinimumSize(QSize(0, 30))
-        self.autoDropNotesNoteCoords.setMaximumSize(QSize(16777215, 30))
-        self.autoDropNotesNoteCoords.setMaximumBlockCount(1)
+        self.AutoDropNotesRepetitions = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesRepetitions.setObjectName(u"AutoDropNotesRepetitions")
+        self.AutoDropNotesRepetitions.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesRepetitions.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.autoDropNotesNoteCoords, 24, 1, 1, 1)
-
-        self.AutoDropNotesBarEndCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesBarEndCoordsButton.setObjectName(u"AutoDropNotesBarEndCoordsButton")
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesBarEndCoordsButton, 29, 0, 1, 2)
-
-        self.AutoDropNotesBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesBarStartCoords.setObjectName(u"AutoDropNotesBarStartCoords")
-        self.AutoDropNotesBarStartCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoDropNotesBarStartCoords.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesBarStartCoords, 26, 1, 1, 1)
-
-        self.label_128 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_128.setObjectName(u"label_128")
-
-        self.gridLayout_21.addWidget(self.label_128, 35, 0, 1, 1)
-
-        self.autoDropNotesNoteCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.autoDropNotesNoteCoordsButton.setObjectName(u"autoDropNotesNoteCoordsButton")
-
-        self.gridLayout_21.addWidget(self.autoDropNotesNoteCoordsButton, 25, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.AutoDropNotesRepetitions, 24, 1, 1, 1)
 
         self.AutoDropNotesSubmitCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
         self.AutoDropNotesSubmitCoordsButton.setObjectName(u"AutoDropNotesSubmitCoordsButton")
 
-        self.gridLayout_21.addWidget(self.AutoDropNotesSubmitCoordsButton, 31, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.AutoDropNotesSubmitCoordsButton, 32, 0, 1, 2)
 
-        self.AutoBuyHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoBuyHotkey.setObjectName(u"AutoBuyHotkey")
-        self.AutoBuyHotkey.setMaximumSize(QSize(16777215, 30))
-        self.AutoBuyHotkey.setMaximumBlockCount(1)
+        self.AutoSellRepetitions = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoSellRepetitions.setObjectName(u"AutoSellRepetitions")
+        self.AutoSellRepetitions.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellRepetitions.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.AutoBuyHotkey, 13, 1, 1, 1)
+        self.gridLayout_21.addWidget(self.AutoSellRepetitions, 36, 1, 1, 1)
 
-        self.AutoBuyBarStartCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.AutoBuyBarStartCoordsButton.setObjectName(u"AutoBuyBarStartCoordsButton")
+        self.AutoBuyLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.AutoBuyLabel.setObjectName(u"AutoBuyLabel")
 
-        self.gridLayout_21.addWidget(self.AutoBuyBarStartCoordsButton, 15, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.AutoBuyLabel, 12, 0, 1, 1)
 
-        self.WillpowerTrainingLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.WillpowerTrainingLabel.setObjectName(u"WillpowerTrainingLabel")
+        self.autoSellBarStartCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.autoSellBarStartCoordsButton.setObjectName(u"autoSellBarStartCoordsButton")
 
-        self.gridLayout_21.addWidget(self.WillpowerTrainingLabel, 8, 0, 1, 1)
-
-        self.AutoDropNotesBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
-        self.AutoDropNotesBarEndCoords.setObjectName(u"AutoDropNotesBarEndCoords")
-        self.AutoDropNotesBarEndCoords.setMaximumSize(QSize(16777215, 30))
-        self.AutoDropNotesBarEndCoords.setMaximumBlockCount(1)
-
-        self.gridLayout_21.addWidget(self.AutoDropNotesBarEndCoords, 28, 1, 1, 1)
-
-        self.BoulderTrainingLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.BoulderTrainingLabel.setObjectName(u"BoulderTrainingLabel")
-
-        self.gridLayout_21.addWidget(self.BoulderTrainingLabel, 5, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.autoSellBarStartCoordsButton, 38, 0, 1, 2)
 
         self.BoulderTrainingHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
         self.BoulderTrainingHotkey.setObjectName(u"BoulderTrainingHotkey")
@@ -825,53 +711,179 @@ class Ui_MainWindow(object):
 
         self.gridLayout_21.addWidget(self.BoulderTrainingHotkey, 7, 1, 1, 1)
 
+        self.label_26 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_26.setObjectName(u"label_26")
+
+        self.gridLayout_21.addWidget(self.label_26, 7, 0, 1, 1)
+
+        self.AutoBuyHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoBuyHotkey.setObjectName(u"AutoBuyHotkey")
+        self.AutoBuyHotkey.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuyHotkey.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.AutoBuyHotkey, 14, 1, 1, 1)
+
         self.label_129 = QLabel(self.scrollAreaWidgetContents_6)
         self.label_129.setObjectName(u"label_129")
 
-        self.gridLayout_21.addWidget(self.label_129, 24, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_129, 25, 0, 1, 1)
+
+        self.label_125 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_125.setObjectName(u"label_125")
+
+        self.gridLayout_21.addWidget(self.label_125, 35, 0, 1, 1)
+
+        self.WillpowerTrainingHotkey = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.WillpowerTrainingHotkey.setObjectName(u"WillpowerTrainingHotkey")
+        self.WillpowerTrainingHotkey.setMinimumSize(QSize(0, 30))
+        self.WillpowerTrainingHotkey.setMaximumSize(QSize(16777215, 30))
+        self.WillpowerTrainingHotkey.setStyleSheet(u"")
+        self.WillpowerTrainingHotkey.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.WillpowerTrainingHotkey, 11, 1, 1, 1)
+
+        self.AutoBuyBarStartCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.AutoBuyBarStartCoordsButton.setObjectName(u"AutoBuyBarStartCoordsButton")
+
+        self.gridLayout_21.addWidget(self.AutoBuyBarStartCoordsButton, 16, 0, 1, 2)
 
         self.label_38 = QLabel(self.scrollAreaWidgetContents_6)
         self.label_38.setObjectName(u"label_38")
         self.label_38.setFont(font)
         self.label_38.setStyleSheet(u"color:grey;")
 
-        self.gridLayout_21.addWidget(self.label_38, 9, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.label_38, 10, 0, 1, 2)
 
-        self.label_121 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_121.setObjectName(u"label_121")
-        self.label_121.setStyleSheet(u"color:grey;")
+        self.label_126 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_126.setObjectName(u"label_126")
 
-        self.gridLayout_21.addWidget(self.label_121, 21, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.label_126, 37, 0, 1, 1)
 
-        self.label_122 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_122.setObjectName(u"label_122")
+        self.label_114 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_114.setObjectName(u"label_114")
 
-        self.gridLayout_21.addWidget(self.label_122, 26, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_114, 24, 0, 1, 1)
 
-        self.AutoBuyLabel = QLabel(self.scrollAreaWidgetContents_6)
-        self.AutoBuyLabel.setObjectName(u"AutoBuyLabel")
+        self.BoulderTrainingLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.BoulderTrainingLabel.setObjectName(u"BoulderTrainingLabel")
 
-        self.gridLayout_21.addWidget(self.AutoBuyLabel, 11, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.BoulderTrainingLabel, 5, 0, 1, 1)
 
-        self.label_118 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_118.setObjectName(u"label_118")
+        self.AutoDropNotesBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesBarStartCoords.setObjectName(u"AutoDropNotesBarStartCoords")
+        self.AutoDropNotesBarStartCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesBarStartCoords.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.label_118, 16, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.AutoDropNotesBarStartCoords, 27, 1, 1, 1)
 
-        self.label_125 = QLabel(self.scrollAreaWidgetContents_6)
-        self.label_125.setObjectName(u"label_125")
+        self.label_124 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_124.setObjectName(u"label_124")
 
-        self.gridLayout_21.addWidget(self.label_125, 34, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_124, 39, 0, 1, 1)
+
+        self.label_128 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_128.setObjectName(u"label_128")
+
+        self.gridLayout_21.addWidget(self.label_128, 36, 0, 1, 1)
 
         self.label_116 = QLabel(self.scrollAreaWidgetContents_6)
         self.label_116.setObjectName(u"label_116")
 
-        self.gridLayout_21.addWidget(self.label_116, 13, 0, 1, 1)
+        self.gridLayout_21.addWidget(self.label_116, 14, 0, 1, 1)
 
-        self.AutoBuySubmitCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
-        self.AutoBuySubmitCoordsButton.setObjectName(u"AutoBuySubmitCoordsButton")
+        self.AutoSellBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoSellBarEndCoords.setObjectName(u"AutoSellBarEndCoords")
+        self.AutoSellBarEndCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoSellBarEndCoords.setMaximumBlockCount(1)
 
-        self.gridLayout_21.addWidget(self.AutoBuySubmitCoordsButton, 19, 0, 1, 2)
+        self.gridLayout_21.addWidget(self.AutoSellBarEndCoords, 39, 1, 1, 1)
+
+        self.label_120 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_120.setObjectName(u"label_120")
+
+        self.gridLayout_21.addWidget(self.label_120, 29, 0, 1, 1)
+
+        self.AutoDropNotesBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesBarEndCoords.setObjectName(u"AutoDropNotesBarEndCoords")
+        self.AutoDropNotesBarEndCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoDropNotesBarEndCoords.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.AutoDropNotesBarEndCoords, 29, 1, 1, 1)
+
+        self.AnkleWeightsLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.AnkleWeightsLabel.setObjectName(u"AnkleWeightsLabel")
+
+        self.gridLayout_21.addWidget(self.AnkleWeightsLabel, 2, 0, 1, 1)
+
+        self.CharismaAutofillLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.CharismaAutofillLabel.setObjectName(u"CharismaAutofillLabel")
+
+        self.gridLayout_21.addWidget(self.CharismaAutofillLabel, 0, 0, 1, 1)
+
+        self.label_27 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_27.setObjectName(u"label_27")
+        self.label_27.setFont(font)
+        self.label_27.setStyleSheet(u"color:grey;")
+
+        self.gridLayout_21.addWidget(self.label_27, 3, 0, 1, 2)
+
+        self.AutoDropNotesBarStartCoordsButton = QPushButton(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesBarStartCoordsButton.setObjectName(u"AutoDropNotesBarStartCoordsButton")
+
+        self.gridLayout_21.addWidget(self.AutoDropNotesBarStartCoordsButton, 28, 0, 1, 2)
+
+        self.AutoSellLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.AutoSellLabel.setObjectName(u"AutoSellLabel")
+
+        self.gridLayout_21.addWidget(self.AutoSellLabel, 33, 0, 1, 1)
+
+        self.label_127 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_127.setObjectName(u"label_127")
+        self.label_127.setStyleSheet(u"color:grey;")
+        self.label_127.setWordWrap(True)
+
+        self.gridLayout_21.addWidget(self.label_127, 34, 0, 1, 2)
+
+        self.label_123 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_123.setObjectName(u"label_123")
+
+        self.gridLayout_21.addWidget(self.label_123, 23, 0, 1, 1)
+
+        self.AutoBuyBarStartCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoBuyBarStartCoords.setObjectName(u"AutoBuyBarStartCoords")
+        self.AutoBuyBarStartCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuyBarStartCoords.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.AutoBuyBarStartCoords, 15, 1, 1, 1)
+
+        self.label_118 = QLabel(self.scrollAreaWidgetContents_6)
+        self.label_118.setObjectName(u"label_118")
+
+        self.gridLayout_21.addWidget(self.label_118, 17, 0, 1, 1)
+
+        self.AutoDropNotesLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.AutoDropNotesLabel.setObjectName(u"AutoDropNotesLabel")
+
+        self.gridLayout_21.addWidget(self.AutoDropNotesLabel, 21, 0, 1, 1)
+
+        self.AutoBuyBarEndCoords = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.AutoBuyBarEndCoords.setObjectName(u"AutoBuyBarEndCoords")
+        self.AutoBuyBarEndCoords.setMaximumSize(QSize(16777215, 30))
+        self.AutoBuyBarEndCoords.setMaximumBlockCount(1)
+
+        self.gridLayout_21.addWidget(self.AutoBuyBarEndCoords, 17, 1, 1, 1)
+
+        self.BoulderKeybindLabel = QLabel(self.scrollAreaWidgetContents_6)
+        self.BoulderKeybindLabel.setObjectName(u"BoulderKeybindLabel")
+
+        self.gridLayout_21.addWidget(self.BoulderKeybindLabel, 8, 0, 1, 1)
+
+        self.BoulderKeybindField = QPlainTextEdit(self.scrollAreaWidgetContents_6)
+        self.BoulderKeybindField.setObjectName(u"BoulderKeybindField")
+        self.BoulderKeybindField.setMinimumSize(QSize(0, 30))
+        self.BoulderKeybindField.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_21.addWidget(self.BoulderKeybindField, 8, 1, 1, 1)
 
         self.scrollArea_5.setWidget(self.scrollAreaWidgetContents_6)
 
@@ -3386,63 +3398,65 @@ class Ui_MainWindow(object):
         self.label_87.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:11pt;\">Presses Q when you press a key (F will cause you to always roll parry)</span></p></body></html>", None))
         self.label_140.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Roll Cancel</span></p></body></html>", None))
         self.label_83.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.label_117.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar Start Coordinates</span></p></body></html>", None))
-        self.label_27.setText(QCoreApplication.translate("MainWindow", u"Make sure the Ankle Weights tool is equipped before starting", None))
-        self.label_28.setText(QCoreApplication.translate("MainWindow", u"Make sure the Boulder tool is held out before starting and you are near a campfire", None))
-        self.AutoDropNotesBarStartCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the place where the circle starts at to fill in the above field", None))
-        self.label_120.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar End Coordinates</span></p></body></html>", None))
-        self.AutoSellLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Sell</span></p></body></html>", None))
-        self.label_124.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Confirmation Coordinates</span></p></body></html>", None))
-        self.AutoBuySubmitCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the submit purchase button (X + space + Y)", None))
-        self.AutoDropNotesHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to start dropping notes automatically", None))
-        self.AutoSellBarEndCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the sell confirmation button (X + space + Y)", None))
-        self.label_114.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Repetitions</span></p></body></html>", None))
-        self.label_127.setText(QCoreApplication.translate("MainWindow", u"Sells soulbounded/enchanted/legendary weapons multiple times. Need to be talking to him already before activating", None))
-        self.label_119.setText(QCoreApplication.translate("MainWindow", u"Buys 5 bulk purchases of any item. Good for buying in bulk", None))
-        self.AutoSellRepetitions.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Amount of items you want to sell", None))
-        self.WillpowerTrainingHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey to start/stop training willpower", None))
-        self.AnkleWeightsTrainingHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey to start/stop training agility", None))
-        self.AutoDropNotesLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Drop Notes</span></p></body></html>", None))
-        self.label_30.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.label_126.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Sell Button Coordinates</span></p></body></html>", None))
-        self.label_25.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.AutoSellHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to start selling automatically", None))
-        self.AutoBuyBarStartCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's start (X + space + Y)", None))
-        self.AnkleWeightsLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Agility Auto-train</span></p></body></html>", None))
-        self.AutoSellBarStartCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the sell button (X + space + Y)", None))
-        self.AutoBuyBarEndCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the end place you drag the circle to for max amount to fill in the above field", None))
-        self.label_139.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Submit Button Coordinates</span></p></body></html>", None))
-        self.AutoSellBarEndCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the sell confirmation button to fill in the above field", None))
-        self.AutoBuyBarEndCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's end (X + space + Y)", None))
-        self.AutoDropNotesSubmitCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the submit button (X + space + Y)", None))
-        self.CharismaAutofillLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Charisma Autofill</span></p></body></html>", None))
-        self.label_130.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Submit Button Coordinates</span></p></body></html>", None))
-        self.label_26.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.AutoDropNotesRepetitions.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Amount of times you want to drop notes", None))
-        self.label_123.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.autoSellBarStartCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the sell button to fill in the above field", None))
-        self.label_13.setText(QCoreApplication.translate("MainWindow", u"Type out part of the charisma line and it will finish it for you", None))
-        self.autoDropNotesNoteCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the notes icon (X + space + Y)", None))
         self.AutoDropNotesBarEndCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the end place you drag the circle to for max amount to fill in the above field", None))
-        self.AutoDropNotesBarStartCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's start (X + space + Y)", None))
-        self.label_128.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Repetitions</span></p></body></html>", None))
-        self.autoDropNotesNoteCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the notes icon to fill in the above field", None))
-        self.AutoDropNotesSubmitCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the submit button (confirm notes amount) to fill in the above field", None))
-        self.AutoBuyHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to start auto buying", None))
-        self.AutoBuyBarStartCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the place where the circle starts at to fill in the above field", None))
-        self.WillpowerTrainingLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Prayer Auto-train</span></p></body></html>", None))
-        self.AutoDropNotesBarEndCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's end (X + space + Y )", None))
-        self.BoulderTrainingLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Boulder Auto-train</span></p></body></html>", None))
-        self.BoulderTrainingHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey to start/stop training fortitude(boulder)", None))
-        self.label_129.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Note Icon Coordinates</span></p></body></html>", None))
-        self.label_38.setText(QCoreApplication.translate("MainWindow", u"Make sure the Prayer Beads tool is held out before starting", None))
+        self.AutoSellBarEndCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the sell confirmation button to fill in the above field", None))
+        self.label_25.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.label_119.setText(QCoreApplication.translate("MainWindow", u"Buys 5 bulk purchases of any item. Good for buying in bulk", None))
         self.label_121.setText(QCoreApplication.translate("MainWindow", u"Drops notes multiple times, good for trading", None))
+        self.AutoDropNotesSubmitCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the submit button (X + space + Y)", None))
+        self.AutoBuyBarEndCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the end place you drag the circle to for max amount to fill in the above field", None))
+        self.AutoSellBarStartCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the sell button (X + space + Y)", None))
+        self.autoDropNotesNoteCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the notes icon (X + space + Y)", None))
         self.label_122.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar Start Coordinates</span></p></body></html>", None))
-        self.AutoBuyLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Buy</span></p></body></html>", None))
-        self.label_118.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar End Coordinates</span></p></body></html>", None))
-        self.label_125.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
-        self.label_116.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
         self.AutoBuySubmitCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the submit purchase button to fill in the above field", None))
+        self.AnkleWeightsTrainingHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey to start/stop training agility", None))
+        self.AutoDropNotesHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to start dropping notes automatically", None))
+        self.label_30.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.label_139.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Submit Button Coordinates</span></p></body></html>", None))
+        self.WillpowerTrainingLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Prayer Auto-train</span></p></body></html>", None))
+        self.label_130.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Submit Button Coordinates</span></p></body></html>", None))
+        self.AutoBuySubmitCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the submit purchase button (X + space + Y)", None))
+        self.AutoSellHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to start selling automatically", None))
+        self.autoDropNotesNoteCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the notes icon to fill in the above field", None))
+        self.label_28.setText(QCoreApplication.translate("MainWindow", u"Make sure the Boulder tool is NOT held out before starting and you are near a campfire", None))
+        self.label_117.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar Start Coordinates</span></p></body></html>", None))
+        self.label_13.setText(QCoreApplication.translate("MainWindow", u"Type out part of the charisma line and it will finish it for you", None))
+        self.AutoDropNotesRepetitions.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Amount of times you want to drop notes", None))
+        self.AutoDropNotesSubmitCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the submit button (confirm notes amount) to fill in the above field", None))
+        self.AutoSellRepetitions.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Amount of items you want to sell", None))
+        self.AutoBuyLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Buy</span></p></body></html>", None))
+        self.autoSellBarStartCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the sell button to fill in the above field", None))
+        self.BoulderTrainingHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey to start/stop training fortitude(boulder)", None))
+        self.label_26.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.AutoBuyHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Key you want to press to start auto buying", None))
+        self.label_129.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Note Icon Coordinates</span></p></body></html>", None))
+        self.label_125.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.WillpowerTrainingHotkey.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey to start/stop training willpower", None))
+        self.AutoBuyBarStartCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the place where the circle starts at to fill in the above field", None))
+        self.label_38.setText(QCoreApplication.translate("MainWindow", u"Make sure the Prayer Beads tool is held out before starting", None))
+        self.label_126.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Sell Button Coordinates</span></p></body></html>", None))
+        self.label_114.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Repetitions</span></p></body></html>", None))
+        self.BoulderTrainingLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Boulder Auto-train</span></p></body></html>", None))
+        self.AutoDropNotesBarStartCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's start (X + space + Y)", None))
+        self.label_124.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Confirmation Coordinates</span></p></body></html>", None))
+        self.label_128.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Repetitions</span></p></body></html>", None))
+        self.label_116.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.AutoSellBarEndCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the sell confirmation button (X + space + Y)", None))
+        self.label_120.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar End Coordinates</span></p></body></html>", None))
+        self.AutoDropNotesBarEndCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's end (X + space + Y )", None))
+        self.AnkleWeightsLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Agility Auto-train</span></p></body></html>", None))
+        self.CharismaAutofillLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Charisma Autofill</span></p></body></html>", None))
+        self.label_27.setText(QCoreApplication.translate("MainWindow", u"Make sure the Ankle Weights tool is equipped before starting", None))
+        self.AutoDropNotesBarStartCoordsButton.setText(QCoreApplication.translate("MainWindow", u"Click me and click on the place where the circle starts at to fill in the above field", None))
+        self.AutoSellLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Sell</span></p></body></html>", None))
+        self.label_127.setText(QCoreApplication.translate("MainWindow", u"Sells soulbounded/enchanted/legendary weapons multiple times. Need to be talking to him already before activating", None))
+        self.label_123.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Hotkey</span></p></body></html>", None))
+        self.AutoBuyBarStartCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's start (X + space + Y)", None))
+        self.label_118.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Bar End Coordinates</span></p></body></html>", None))
+        self.AutoDropNotesLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">Auto Drop Notes</span></p></body></html>", None))
+        self.AutoBuyBarEndCoords.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Coordinates of the bar's end (X + space + Y)", None))
+        self.BoulderKeybindLabel.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Boulder Keybind</span></p></body></html>", None))
+        self.BoulderKeybindField.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Hotkey that the boulder is on", None))
         self.label_32.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:12pt;\">Username</span></p></body></html>", None))
         self.plainTextEdit_14.setPlainText("")
         self.plainTextEdit_14.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Leave blank if you do not want a custom one", None))
@@ -3840,15 +3854,15 @@ class Ui_MainWindow(object):
         self.AutoFortitudeToggle = CustomToggle(self.progressionPage)
         self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoFortitudeToggle, 5,1,1,1)
         self.AutoWillpowerToggle = CustomToggle(self.progressionPage)
-        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoWillpowerToggle, 8,1,1,1)
+        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoWillpowerToggle, 9,1,1,1)
         self.AutoBuyToggle = CustomToggle(self.progressionPage)
-        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoBuyToggle, 11,1,1,1)
+        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoBuyToggle, 12,1,1,1)
 
         self.AutoDropNotesToggle = CustomToggle(self.progressionPage)
-        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoDropNotesToggle, 20,1,1,1)
+        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoDropNotesToggle, 21,1,1,1)
 
         self.AutoSellToggle = CustomToggle(self.progressionPage)
-        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoSellToggle, 32, 1, 1, 1)
+        self.scrollAreaWidgetContents_6.layout().addWidget(self.AutoSellToggle, 33, 1, 1, 1)
 
         
 
@@ -4089,7 +4103,7 @@ class Ui_MainWindow(object):
                         templatepath = os.path.join(filepath, 'assets/letter_templates')
                         addMacro('Ritual Cast', self.RitualCastToggle, autoritualcast.RitualCastListener, ping_ms=self.plainTextEdit_10.toPlainText(), basepath=templatepath, scale=self.screenScale.currentIndex(), resolution=self.screenResolution.currentIndex())
                         addMacro('Charisma Autofill', self.CharismaAutofillToggle, autocharisma.autoCharismaListener)
-                        addMacro('Auto Fortitude', self.AutoFortitudeToggle, autofortitude.AutoFortitudeListener, keybind=self.BoulderTrainingHotkey.toPlainText())
+                        addMacro('Auto Fortitude', self.AutoFortitudeToggle, autofortitude.AutoFortitudeListener, keybind=self.BoulderTrainingHotkey.toPlainText(), boulder_keybind=self.BoulderKeybindField.toPlainText())
                         addMacro('Auto Willpower', self.AutoWillpowerToggle, autowillpower.AutoWillpowerListener, keybind=self.WillpowerTrainingHotkey.toPlainText())
 
                         addMacro('Auto Agility', self.AutoAgilityToggle, autoagility.AutoAgilityListener, keybind=self.AnkleWeightsTrainingHotkey.toPlainText())
@@ -4302,7 +4316,7 @@ class Ui_MainWindow(object):
                 #! progresssion
 
                 saveMacro(currentData, 'CharismaAutofillToggle')
-                saveMacro(currentData, 'AutoFortitudeToggle', params=['BoulderTrainingHotkey'], elements=['BoulderTrainingHotkey'])
+                saveMacro(currentData, 'AutoFortitudeToggle', params=['BoulderTrainingHotkey', 'BoulderKeybindField'], elements=['BoulderTrainingHotkey', 'BoulderKeybindField'])
                 saveMacro(currentData, 'AutoWillpowerToggle', params=['WillpowerTrainingHotkey'], elements=['WillpowerTrainingHotkey'])
                 saveMacro(currentData, 'AutoAgilityToggle', params=['AnkleWeightsTrainingHotkey'], elements=['AnkleWeightsTrainingHotkey'])
                 saveMacro(currentData, 'AutoBuyToggle', params=['AutoBuyHotkey', 'AutoBuyBarStartCoords', 'AutoBuyBarEndCoords', 'AutoBuySubmitCoords'], elements=['AutoBuyHotkey', 'AutoBuyBarStartCoords', 'AutoBuyBarEndCoords', 'AutoBuySubmitCoords'])
@@ -4412,7 +4426,7 @@ class Ui_MainWindow(object):
                 #!progression
 
                 loadMacro(savedData, 'CharismaAutofillToggle')
-                loadMacro(savedData, 'AutoFortitudeToggle', ['BoulderTrainingHotkey'],['BoulderTrainingHotkey'])
+                loadMacro(savedData, 'AutoFortitudeToggle', ['BoulderTrainingHotkey', 'BoulderKeybindField'],['BoulderTrainingHotkey', 'BoulderKeybindField'])
                 loadMacro(savedData, 'AutoWillpowerToggle', ['WillpowerTrainingHotkey'], ['WillpowerTrainingHotkey'])
                 loadMacro(savedData, 'AutoAgilityToggle', ['AnkleWeightsTrainingHotkey'], ['AnkleWeightsTrainingHotkey'])
                 loadMacro(savedData, 'AutoBuyToggle', ['AutoBuyHotkey', 'AutoBuyBarStartCoords', 'AutoBuyBarEndCoords', 'AutoBuySubmitCoords'], ['AutoBuyHotkey', 'AutoBuyBarStartCoords', 'AutoBuyBarEndCoords', 'AutoBuySubmitCoords'])

@@ -9,25 +9,30 @@ class AutoFortitudeListener:
         self.thread = None
         self.hotkey = None
 
-    def stack(self, keybind):
+    def stack(self, keybind, boulder_keybind):
         # Define the keybind
         KEYBIND = keybind
         
         # Explicitly set running to False when stack() is called
-        self.running = False  # Add this line
+        self.running = False 
 
-        def continuous_task():
+        def continuous_task(): # currently broken. add a new param
+            # full flow should be equip, click, wait 25, unequip boulder tool , sit at camp, wait 30, get up, reequip boulder tool, repeat
             while self.running:
+                keyboard.press_and_release(boulder_keybind)
+                time.sleep(0.5)
                 pyautogui.click()
                 time.sleep(25)
                 if not self.running:
                     break
+                keyboard.press_and_release(boulder_keybind)
+                time.sleep(1.5)
                 keyboard.press_and_release('e')
                 time.sleep(30)
                 if not self.running:
                     break
                 keyboard.press_and_release('e')
-                time.sleep(0.5)
+                time.sleep(1.5)
 
         def toggle_running_state(e):
             if e.name == KEYBIND:
@@ -56,13 +61,13 @@ class AutoFortitudeListener:
 
 
 
-    def run(self, keybind):
+    def run(self, keybind, boulder_keybind):
         print('checking')
         
         if not self.thread or not self.thread.is_alive():
             print('starting ' + (__file__).split("\\")[-1])
             self.running = True
-            self.stack(keybind=keybind)  # Just call stack directly
+            self.stack(keybind=keybind, boulder_keybind=boulder_keybind)  # Just call stack directly
             while self.running:  # Keep the thread alive
                 time.sleep(0.1)  # Add a small sleep to prevent CPU hogging
 
