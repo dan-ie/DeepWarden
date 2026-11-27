@@ -6,4 +6,7 @@
   <a href="https://github.com/swinelike/DeepWarden" style="text-decoration:none;"><img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge"></a> <br>
   <a href="https://github.com/swinelike/DeepWarden"> <img src="APP/icon.png" width="50%"> </a>
 </div>
-
+<div align="center"> 
+ <h3 strength="bold"> DeepWarden is now considered finished. New features will not be added - the only changes to the code will be occasional maintenance if any bugs arise.</h3>
+ <i>Please only submit bug reports in the #bugs channel of the Discord server linked to this repository</i>
+</div>

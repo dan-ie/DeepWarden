@@ -4547,4 +4547,4 @@ class Ui_MainWindow(object):
 
 
         #! version indicator
-        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:18pt; color:ivory;\">v3.3.3</span></p></body></html>')
+        self.versionLabel.setText('<html><head/><body><p><span style=\" font-size:18pt; color:ivory;\">v3.3.4</span></p></body></html>')
